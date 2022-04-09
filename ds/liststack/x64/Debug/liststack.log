@@ -1,0 +1,6 @@
+﻿  liststack.cpp
+C:\xtempGithub\liststack\liststack.cpp(14,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'liststack.h': No such file or directory
+  liststackDriver.cpp
+C:\xtempGithub\liststack\liststackDriver.cpp(8,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'nowic.h': No such file or directory
+  nowic.cpp
+  코드를 생성하고 있습니다...

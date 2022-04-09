@@ -1,0 +1,6 @@
+﻿  tree.cpp
+C:\xtempGithub\nowicx\psets\pset09-11\tree.cpp(497,50): warning C4267: '초기화 중': 'size_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  treeDriver.cpp
+  코드를 생성하고 있습니다...
+nowic.lib(nowic.obj) : warning LNK4099: 'nowic.pdb' PDB를 'nowic.lib(nowic.obj)' 또는 'C:\xtempGithub\ds\x64\Debug\nowic.pdb'에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+  tree.vcxproj -> C:\xtempGithub\ds\x64\Debug\tree.exe

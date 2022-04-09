@@ -1,0 +1,6 @@
+﻿  listnode.cpp
+C:\xtempGithub\listnode\listnode.cpp(21,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'listnode.h': No such file or directory
+  listnodeDriver.cpp
+C:\xtempGithub\listnode\listnodeDriver.cpp(13,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'nowic.h': No such file or directory
+  nowic.cpp
+  코드를 생성하고 있습니다...

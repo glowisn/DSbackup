@@ -1,0 +1,6 @@
+﻿  tree.cpp
+C:\xtempGithub\nowicx\psets\pset09-11\tree.cpp(667,11): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  treeDriver.cpp
+  treeprint.cpp
+  코드를 생성하고 있습니다...
+nowic.lib(nowic.obj) : fatal error LNK1112: 'x64' 모듈 컴퓨터 종류가 'x86' 대상 컴퓨터 종류와 충돌합니다.

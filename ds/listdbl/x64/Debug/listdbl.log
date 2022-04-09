@@ -1,0 +1,11 @@
+﻿  nowic.cpp
+  listdbl.cpp
+C:\xtempGithub\nowicx\psets\pset08\listdbl.cpp(30,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'listdbl.h': No such file or directory
+  listdblDriver.cpp
+C:\xtempGithub\nowicx\psets\pset08\listdblDriver.cpp(39,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'nowic.h': No such file or directory
+  listsort.cpp
+C:\xtempGithub\nowicx\psets\pset08\listsort.cpp(9,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'listdbl.h': No such file or directory
+  quicksort.cpp
+C:\xtempGithub\nowicx\psets\pset08\quicksort.cpp(8,10): fatal error C1083: 포함 파일을 열 수 없습니다. 'sort.h': No such file or directory
+  random.cpp
+  코드를 생성하고 있습니다...

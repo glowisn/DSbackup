@@ -1,0 +1,3 @@
+﻿  infix.cpp
+C:\xtempGithub\nowicx\psets\pset06\infix.cpp(108,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+  infix.vcxproj -> C:\xtempGithub\ds\Debug\infix.exe

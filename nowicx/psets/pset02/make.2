@@ -1,0 +1,40 @@
+# On my honor, I pledge that I have neither received nor provided improper assistance in the
+# completion of this assignment.
+# Signed: _Yechan Jung_ Student Number: __21700663___
+
+# pset02 : build a static library
+# make.s - making libsort.a in nowic/lib
+
+CC = g++
+CCFLAGS = -Wall
+LDFLAGS = -L$(LIBDIR) -lnowic
+LIBDIR = ../../lib
+INCDIR = ../../include
+LIBINC = -lnowic
+DEBUG = -DDEBUG
+
+SRCS = sortDriver2.cpp bubble.cpp insertion.cpp selection.cpp quickSort.cpp
+OBJS = $(SRCS:.cpp=.o)
+TARGET = sort2
+
+# make target
+$(TARGET) : $(OBJS)
+	$(CC) -o $@ $(OBJS) $(LDFLAGS)
+
+
+# automaic dependency
+$(OBJS): %.o: %.cpp
+	$(CC) -c $(CCFLAGS) -I$(INCDIR) $< -o $@
+	$(CC) -I(INCDIR) -MM -MF $*.d $<
+-include $(SRCS:.cpp=.d)
+
+.PHONY: all debug clean cleanall
+all: $(TARGET)
+
+debug: CCFLAGS += --DEBUG -g
+
+clean:
+	rm -f $(OBJS) *.d
+
+cleanall:
+	rm -f *.o *.d $(TARGET).exe $(TARGET)
